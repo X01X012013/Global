@@ -5,10 +5,10 @@ div.normal{
   border-radius: 20px;
   background-color: #E6E6E6;
 }
-.mLeft{
+.marginLeft{
   margin-left: 5%;
 }
-.mRight{
+.marginRight{
   margin-right: 5%;
 }
 .notSelectable{
