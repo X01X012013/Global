@@ -1,21 +1,24 @@
-div.normal{
-  margin-left: 10%;
-  margin-right: 10%;
-  min-width: 600px;
-  border-radius: 20px;
-  background-color: #E6E6E6;
+div.normal {
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 600px;
+    border-radius: 20px;
+    background-color: #E6E6E6;
 }
-.marginLeft{
-  margin-left: 5%;
+
+.marginLeft {
+    margin-left: 5%;
 }
-.marginRight{
-  margin-right: 5%;
+
+.marginRight {
+    margin-right: 5%;
 }
-.notSelectable{
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
+.notSelectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
