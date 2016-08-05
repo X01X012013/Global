@@ -1,8 +1,7 @@
 //Universal disqus loader
-let disqus_config;
-let disqusLoader = function (name, url, id, title) {
+const disqusLoader = function (name, url, id, title) {
     //Set variables
-    disqus_config = function () {
+    window.disqus_config = function () {
         this.page.url = url;
         this.page.identifier = id;
         this.page.title = title;
