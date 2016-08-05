@@ -1,3 +1,5 @@
+"use strict";
+
 //Universal disqus loader
 const disqusLoader = function (name, url, id, title) {
     //Set variables
