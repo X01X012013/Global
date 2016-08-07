@@ -16,8 +16,5 @@ const disqusLoader = function (name, url, id, title) {
         this.page.title = title;
     };
     //Load embed
-    let script = document.createElement('script');
-    script.src = "//" + name + ".disqus.com/embed.js";
-    script.setAttribute("data-timestamp", +new Date());
-    document.head.appendChild(script);
+    $("<script>").attr("src", "https://" + name + ".disqus.com/embed.js").data("timestamp", (new Date()).getTime()).appendTo("head");
 };
