@@ -1,12 +1,13 @@
+//This library is based on Disqus Universal Code and inherit its license
 "use strict";
 
 /**
- * Universal Disqus loader. 
+ * Disqus loader, jQuery required.
  * @function
- * @param {string} name - The short name of the website. 
- * @param {string} url - The URL for disqus_config. 
- * @param {*} id - The identifier for disqus_config. 
- * @param {string} title - The title for disqus_config. 
+ * @param {string} name - The short name of the website.
+ * @param {string} url - The URL for disqus_config.
+ * @param {*} id - The identifier for disqus_config.
+ * @param {string} title - The title for disqus_config.
  */
 const disqusLoader = function (name, url, id, title) {
     //Set variables
