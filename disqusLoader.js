@@ -1,4 +1,4 @@
-//This library is based on Disqus Universal Code and inherit its license
+//Based on Disqus Universal Code
 "use strict";
 
 /**
