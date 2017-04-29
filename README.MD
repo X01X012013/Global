@@ -1,5 +1,5 @@
-# Global
+# Libraries
 
-This repository contains libraries and files used in other projects. 
+This is a special repository that contains libraries files for other projects. 
 
-Common libraries such as jQuery and Bootstrap are loaded from CDNs. 
+Please open an issue if there is something you want me to know. 
