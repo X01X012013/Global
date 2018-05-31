@@ -1,5 +1,5 @@
 # Libraries
 
-This is a repository that contains libraries files for other projects. 
+This repository contains libraries for my other projects.
 
-Please open an issue if there is something you want me to know. 
+Please open an issue if there is something you want me to know.
