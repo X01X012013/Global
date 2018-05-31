@@ -11,7 +11,7 @@
  * @param {Any} id - The identifier for disqus_config.
  * @param {string} title - The title for disqus_config.
  */
-const disqusLoader = function (name, url, id, title) {
+const disqusLoader = (name, url, id, title) => {
     window.disqus_config = function () {
         this.page.url = url;
         this.page.identifier = id;
